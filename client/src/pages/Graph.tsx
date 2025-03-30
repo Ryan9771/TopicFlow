@@ -1,7 +1,6 @@
-import { ReactFlowProvider } from '@xyflow/react';
 import '@xyflow/react/dist/style.css';
-import { ReactFlow, Background, BackgroundVariant } from '@xyflow/react';
-import { Slide, SLIDE_WIDTH, } from '../components/Slide';
+import { ReactFlow, ReactFlowProvider, Background, BackgroundVariant } from '@xyflow/react';
+import { Slide, SLIDE_WIDTH, } from '../components/slides/Slide';
 
  
 const nodeTypes = {
