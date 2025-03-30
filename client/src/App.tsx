@@ -1,10 +1,11 @@
-import Graph from "./pages/Graph";
+import Graph from "./pages/SimpleSlides";
 import FlowApp from "./pages/Flow";
+import PanToView from "./pages/PanToView";
 
 function App() {
   return (
     <div className="w-full h-full flex">
-      <FlowApp />
+      <PanToView />
     </div>
   )
 }
